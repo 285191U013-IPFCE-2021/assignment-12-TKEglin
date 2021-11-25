@@ -24,7 +24,8 @@ int Duration::getDuration() {
 }
 
 bool Duration::checkAndUpdateAlarm() {
-    if(time >= alarm) {
+    if(time >= alarm && alarmHasBeenSet) {
+        alarmHasBeenSet = false;
         alarm = 0;
         return true;
     }
@@ -49,5 +50,6 @@ void Duration::setAlarm(int t) {
     if(t <= time)
         return;
     else
+        alarmHasBeenSet = true;
         alarm = t;
 }

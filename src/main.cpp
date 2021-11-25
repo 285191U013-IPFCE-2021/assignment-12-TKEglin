@@ -47,7 +47,7 @@ int main(int argc, char **argv)
 
     if(clock_tick.getDuration() == 9) printf("\nTick(tock) test successful.");
 
-
+    clock_tick.setAlarm(11);
     assert(!clock_tick.tick());
     assert(clock_tick.tick(2));
 
@@ -75,7 +75,13 @@ int main(int argc, char **argv)
     assert(!clock_tick.tick(3));
     assert(clock_tick.tick());   //clock.tick time is now 30, the original setAlarm value
 
+    assert(!clock_tick.tick());  //Alarm has been reset, so tick() should return false
+
     printf("\n\nsetAlarm precondition and checkAndUpdateAlarm test successful");
+
+    printf("\n\n*****************************");
+    printf("\n*** All tests successfull ***");
+    printf("\n*****************************");
 
     return (0);
 }
