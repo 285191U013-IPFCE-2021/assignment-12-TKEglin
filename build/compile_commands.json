@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/eglin/OneDrive/Uni/Computerteknologi/Programmering/Week12/assignment-12-TKEglin/build",
+  "command": "C:\\MinGW\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/mymath.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\mymath.dir\\src\\duration.cpp.obj -c C:\\Users\\eglin\\OneDrive\\Uni\\Computerteknologi\\Programmering\\Week12\\assignment-12-TKEglin\\src\\duration.cpp",
+  "file": "C:/Users/eglin/OneDrive/Uni/Computerteknologi/Programmering/Week12/assignment-12-TKEglin/src/duration.cpp"
+},
+{
+  "directory": "C:/Users/eglin/OneDrive/Uni/Computerteknologi/Programmering/Week12/assignment-12-TKEglin/build",
+  "command": "C:\\MinGW\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\eglin\\OneDrive\\Uni\\Computerteknologi\\Programmering\\Week12\\assignment-12-TKEglin\\src\\main.cpp",
+  "file": "C:/Users/eglin/OneDrive/Uni/Computerteknologi/Programmering/Week12/assignment-12-TKEglin/src/main.cpp"
+},
+{
+  "directory": "C:/Users/eglin/OneDrive/Uni/Computerteknologi/Programmering/Week12/assignment-12-TKEglin/build/tests",
+  "command": "C:\\MinGW\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/tests.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\tests.dir\\src\\tests.cpp.obj -c C:\\Users\\eglin\\OneDrive\\Uni\\Computerteknologi\\Programmering\\Week12\\assignment-12-TKEglin\\tests\\src\\tests.cpp",
+  "file": "C:/Users/eglin/OneDrive/Uni/Computerteknologi/Programmering/Week12/assignment-12-TKEglin/tests/src/tests.cpp"
+}
+]
